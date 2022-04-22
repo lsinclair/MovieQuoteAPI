@@ -1,10 +1,10 @@
 spec:
-  name: sample-laravel
+  name: MovieQuoteAPI
   services:
     - environment_slug: php
       git:
         branch: main
-        repo_clone_url: https://github.com/digitalocean/sample-laravel.git
+        repo_clone_url: https://github.com/lsinclair/MovieQuoteAPI.git
       envs:
         - key: APP_KEY
           value: "base64:1v99R3nveSydaoCl7CLmfGd4G8/13bE/RZk1iV4OWEs="
