@@ -7,20 +7,6 @@ spec:
         repo_clone_url: https://github.com/lsinclair/MovieQuoteAPI.git
       envs:
         - key: APP_KEY
-          value: "base64:1v99R3nveSydaoCl7CLmfGd4G8/13bE/RZk1iV4OWEs="
-        - key: APP_NAME
-          value: "Movie Quotes API"
-        - key: APP_DEBUG
-          value: "false"
-        - key: DB_HOST
-          value: ${HOSTNAME}
-        - key: DB_PORT
-            value: ${PORT}
-        - key: DB_DATABASE
-            value: ${HOSTNAME}
-        - key: DB_USERNAME
-            value: ${DATABASE}
-        - key: DB_PASSWORD
-            value: ${PASSWORD}
+          value: "base64:UdAH2B63rlotjrkSSsj3Hppy4gbfr+OeHvtSdF9r9q8="
       name: MovieQuoteAPI
       run_command: heroku-php-apache2 public/
