@@ -22,5 +22,5 @@ spec:
             value: ${DATABASE}
         - key: DB_PASSWORD
             value: ${PASSWORD}
-      name: sample-laravel
+      name: MovieQuoteAPI
       run_command: heroku-php-apache2 public/
